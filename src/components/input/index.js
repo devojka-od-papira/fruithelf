@@ -4,10 +4,8 @@ import TextField from "@material-ui/core/TextField";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    "& > *": {
-      margin: theme.spacing(1),
-      width: "25ch",
-    },
+    margin: theme.spacing(1),
+    width: 300,
   },
 }));
 
@@ -15,7 +13,7 @@ function Input() {
   const classes = useStyles();
   return (
     <form className={classes.root} noValidate autoComplete="off">
-      <TextField id="standard-basic" label="Search topic" />
+      <TextField fullWidth="bool" label="Search topic" />
     </form>
   );
 }
