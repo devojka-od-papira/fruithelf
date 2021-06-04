@@ -1,4 +1,4 @@
-import { SEARCH_BY_BOOK_REQEST, SEARCH_BY_BOOK_SUCCESS } from "../actionTypes";
+import { SEARCH_BY_BOOK_REQUEST, SEARCH_BY_BOOK_SUCCESS } from "../actionTypes";
 
 const initialState = {
   books: null,
@@ -8,7 +8,7 @@ const initialState = {
 export default (state = initialState, action) => {
   // eslint-disable-next-line default-case
   switch (action.type) {
-    case SEARCH_BY_BOOK_REQEST:
+    case SEARCH_BY_BOOK_REQUEST:
       return {
         ...state,
       };

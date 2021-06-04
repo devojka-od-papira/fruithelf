@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   nav: {
-    margin: theme.spacing(10),
+    margin: theme.spacing(1),
     width: "100%",
     display: "flex",
     justifyContent: "center",

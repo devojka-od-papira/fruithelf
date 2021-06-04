@@ -3,11 +3,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import IconButton from "@material-ui/core/IconButton";
 import ViewListIcon from "@material-ui/icons/ViewList";
 import ViewComfyIcon from "@material-ui/icons/ViewComfy";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: theme.spacing(1),
-    // marginLeft: "25px",
-    // marginRight: "25px",
   },
 }));
 
